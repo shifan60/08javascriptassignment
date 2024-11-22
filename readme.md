@@ -51,12 +51,12 @@ for in loop :-
 
 The for in loop iterates over the properties of an object.
 ~~~js
-const person = {fname: "John", lname: "Doe", age: 25};
+const person = {fname: "Ashley", lname: "Doe", age: 25};
 
 for (let key in person) {
     console.log(key + ": " + person[key]);
 }
-/* output : fname: John
+/* output : fname: Ashley
             lname: Doe
             age: 25*/
 ~~~
